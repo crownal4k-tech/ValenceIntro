@@ -1,0 +1,32 @@
+# true  = pakai resource pack Valence (folder oraxen-pack/, dikirim lewat Oraxen)
+# false = tampilan teks + item vanilla, tidak butuh pack
+custom-ui: true
+
+# Lama layar loading (detik)
+loading-seconds: 4
+
+# Teks mendukung MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# Nilai "", "", "" adalah karakter gambar dari font valence:ui
+# (logo, geser -8, panel menu). Jangan diubah kecuali kamu mengubah font di pack-nya.
+title: "<white><font:valence:ui></font>"
+menu-title: "<white><font:valence:ui></font>"
+
+# Dipakai kalau custom-ui: false
+title-text: "<bold><gradient:#1d4ed8:#60a5fa:#ffffff>VALENCE</gradient></bold>"
+menu-title-text: "<gradient:#2563eb:#bfdbfe>Pilih Lokasi</gradient>"
+
+subtitle: "<gradient:#93c5fd:#ffffff>ROLEPLAY</gradient>"
+loading-text: "<gradient:#2563eb:#ffffff>Memuat Valence...</gradient>"
+welcome-text: "<gradient:#93c5fd:#ffffff>Selamat datang di Valence Roleplay</gradient>"
+
+# Command yang dijalankan tombol "Ganti Baju" (tanpa /). Kosongkan kalau tidak dipakai.
+outfit-command: "skin"
+
+# Lokasi "Spawn Kota"
+spawn:
+  world: world
+  x: 0.5
+  y: 80.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0

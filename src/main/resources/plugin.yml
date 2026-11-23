@@ -1,0 +1,16 @@
+name: ValenceIntro
+version: '${project.version}'
+main: id.valence.intro.ValenceIntro
+api-version: '1.21'
+description: Intro Valence Roleplay yang dijalankan lewat command /intro
+commands:
+  intro:
+    description: Mulai intro server
+    usage: /intro [player]
+permissions:
+  valenceintro.use:
+    description: Boleh memakai /intro
+    default: true
+  valenceintro.others:
+    description: Boleh menjalankan /intro untuk pemain lain
+    default: op
